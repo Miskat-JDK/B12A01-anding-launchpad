@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #377DFF;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #377DFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.section {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.metrics {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #377DFF;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.testimonial {
+  width: 30%;
+  font-size: 14px;
+}
+
+.image-box img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
